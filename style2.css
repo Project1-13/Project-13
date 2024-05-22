@@ -1,0 +1,116 @@
+header {
+    padding: 40px;
+    border-style:groove;
+    font-size: 15px;
+    font-family:Inter, Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:white;
+}
+
+.topnav{
+    background-color:aliceblue;
+    overflow:hidden;
+
+}
+
+.topnav a {
+    float:right;
+    color:black;
+    text-align:right;
+    padding: 14px 16px;
+    text-decoration:underline;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+
+
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    right: 0;
+    margin: 330px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    color: #961919;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #b48484b9;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #0e0d0d;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #961919;
+    color: rgb(245, 242, 242);
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  /* save login information button*/
+  .remember {
+    background-color: #141010;
+    color: rgb(245, 242, 242);
+    padding: 0px 2px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+footer .contact-info {
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+}
+
+footer .social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
