@@ -27,12 +27,18 @@ header {
     color: black;
 }
 
-
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
 
 /* Add styles to the form container */
 .container {
     position: absolute;
-    right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: 330px;
     max-width: 300px;
     padding: 20px;
@@ -41,7 +47,7 @@ header {
   }
   
   /* Full-width input fields */
-    input[type=text], input[type=password] {
+    #email-field  input[type=text], #password-fieldpr input[type=password] {
     width: 100%;
     padding: 5px;
     margin: 5px 0 22px 0;
