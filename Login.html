@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Wicked Needles</title>
-    <link rel="stylesheet" href="Assets/style2.css">
+    <link rel="stylesheet" href="./Assets/login.css">
 </head>
 <header>
-    <h4> Wicked Needles</h4>
-    <div class="topnav">
-        <a class="active"
-        href="#home">Home</a>
+    <h1>Wicked Needles</h1>
+    <nav>
+        <a href="./Login.html">Home</a>
+        <a href="#find-us">Find Us</a>
+        <a href="./set_appoinment.html">Set Appointment</a>
         <a href="#contact-us">Contact Us</a>
-        <a href="#appointment">Appointment</a>
-    </div>
+        <a href="./Portfolio.html">Portfolio</a>
+    </nav>
 </header>
 
 
@@ -20,18 +21,18 @@
     <div class="background-image">
 
         
-    <form action="/action_page.php" class="container">
+     <form action="/action_page.php" class="container">
         <h1> Login</h1>
 
         <label for="Email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" id="email-field" required>
+        <input type="text" placeholder="Enter Email" name="email" required id="email-field">
 
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw"  id="password-field"required >
+        <input type="password" placeholder="Enter Password" name="psw"  required id="password-field">
 
         <button type="submit" class="btn">Login</button>
         <button type="save" class="remember">Remember Me</button>
-    </form>  
+    </form> 
     </div>
 </body>
 
@@ -42,9 +43,11 @@
     }
 .background-image {
     background-image: url('Images/tattoo-shop.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-     height: 100vh; 
+    height: 100vh; 
+    background-position: center;
+   
     /* vh means it will always take the size of the view port */
 }
 </style>
