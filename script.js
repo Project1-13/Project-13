@@ -5,6 +5,8 @@ const loginButton = document.querySelector('#login'); //targeting the login butt
 const rememberButton = document.querySelector('#remember') //targeting the remember me button
 
 
+
+
 loginButton.addEventListener('click', function (event) {
   event.preventDefault();
 
@@ -12,14 +14,21 @@ loginButton.addEventListener('click', function (event) {
   const password = passwordInput.value;
 
   if (email === '') {
-    displayMessage('error', 'Email cannot be blank');
+    alert('Email cannot be blank');
   } else if (password === '') {
-    displayMessage('error', 'Password cannot be blank');
+    alert ('password can not be blank'); //added an password alert
   } else {
-    displayMessage('success', 'Registered successfully');
-
+    alert("login successful");
+    
+  
+// placing the email and password into local storage
     localStorage.setItem('email', email);
     localStorage.setItem('password', password);
    
+    // logging the email and password to the console
+    console.log(email);
+    console.log(password);
+
   }
 });
+
