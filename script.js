@@ -36,3 +36,21 @@ loginButton.addEventListener('click', function (event) {
   }
 });
 
+rememberButton.addEventListener('click', function (event) {
+  event.preventDefault();
+
+  const remember = emailInput.value 
+
+  if (remember !== '') {
+    alert('Profile Saved');
+
+    window.location.pathname = "/public/user.html";  
+
+  }
+
+  else {
+  alert ('error, please try again')
+  }
+
+
+})
