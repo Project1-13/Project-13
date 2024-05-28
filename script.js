@@ -29,6 +29,10 @@ loginButton.addEventListener('click', function (event) {
     console.log(email);
     console.log(password);
 
+    // redirecting to the user page
+    window.location.pathname = "/public/user.html";  
+
+
   }
 });
 
