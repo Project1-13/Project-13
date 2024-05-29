@@ -4,9 +4,6 @@ const passwordInput = document.querySelector('#password-field'); //targeting the
 const loginButton = document.querySelector('#login'); //targeting the login button
 const rememberButton = document.querySelector('#remember') //targeting the remember me button
 
-
-
-
 loginButton.addEventListener('click', function (event) {
   event.preventDefault();
 
