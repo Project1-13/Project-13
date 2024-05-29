@@ -17,22 +17,20 @@ loginButton.addEventListener('click', function (event) {
     alert('Email cannot be blank');
   } else if (password === '') {
     alert ('password can not be blank'); //added an password alert
-  } else {
-    alert("login successful");
-    
-  
-// placing the email and password into local storage
-    localStorage.setItem('email', email);
-    localStorage.setItem('password', password);
-   
-    // logging the email and password to the console
-    console.log(email);
-    console.log(password);
-
-    // redirecting to the user page
-    window.location.pathname = "/public/user.html";  
-
-
+  } else   {
+    const existingUserPassword = localStorage.getItem(email) 
+    console.log (existingUserPassword);
+    if (!existingUserPassword){
+      alert("user not found")
+    } else if (existingUserPassword !== password){
+      alert("wrong password")
+    } else{
+      alert("login successful");
+       // redirecting to the user page
+      window.location.pathname = "/public/user.html";  
+    }
+       
+     
   }
 });
 // added event listener to the remember button
