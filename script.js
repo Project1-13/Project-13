@@ -44,10 +44,10 @@ rememberButton.addEventListener('click', function (event) {
 
   // setting the if statement up so that as long as there is something in the email form it will promt
   if (remember !== '') {
-    alert('Profile Saved');
+    alert('Create New Profile?');
 
-    // redirecting to the user page
-    window.location.pathname = "/public/user.html";  
+    // redirecting to the profile creation form
+    window.location.pathname = "/create_profile.html";  
 
   }
 
