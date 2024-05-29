@@ -7,9 +7,9 @@
 
 .logo {
     position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 10%;
+    object-fit:cover;
+    width: 2700px;
+    height: 800px;
 }
  
 .container1 {
@@ -79,7 +79,7 @@ header h1 {
 }
 
 main h3, h4 {
-    color: #a3c2b0;
+    color: #863e3e;
 }
 
 header nav a {
