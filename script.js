@@ -35,19 +35,23 @@ loginButton.addEventListener('click', function (event) {
 
   }
 });
-
+// added event listener to the remember button
 rememberButton.addEventListener('click', function (event) {
   event.preventDefault();
 
+  // creating a variable to hold the email input
   const remember = emailInput.value 
 
+  // setting the if statement up so that as long as there is something in the email form it will promt
   if (remember !== '') {
     alert('Profile Saved');
 
+    // redirecting to the user page
     window.location.pathname = "/public/user.html";  
 
   }
 
+  // alterting error if there is nothing in the email form
   else {
   alert ('error, please try again')
   }
