@@ -28,6 +28,10 @@ header h1 {
     color: #fff;
 }
 
+header nav {
+    margin-left: auto;
+}
+
 header nav a {
     color: #000;
     background-color: #fff;
@@ -39,17 +43,6 @@ header nav a {
 
 section {
     padding: 40px 20px;
-}
-
-#find-us {
-    text-align: center;
-}
-
-.map-image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 20px 0;
 }
 
 .signup {
@@ -64,11 +57,12 @@ section {
     max-width: 400px;
 }
 
-#set-appointment .appointment {
+#set-appointment {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .form-section {
@@ -135,7 +129,6 @@ footer .social-icons img {
     width: 24px;
     height: 24px;
 }
-
 
 @media (max-width: 768px) {
     header, footer {
