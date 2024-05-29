@@ -1,0 +1,72 @@
+/* makes body take up whole viewport, why doesn't this just automatically happen? */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
+
+/* makes container for map */
+.mapContainer {
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* creates map itself */
+#map {
+    position: absolute;
+    top: 0;
+    right: 0;;
+    bottom: 0;
+    width: 100%;
+ }
+
+ /* Marker tweaks */
+.mapboxgl-popup-close-button {
+    display: none;
+  }
+  
+  .mapboxgl-popup-content {
+    font:
+      400 15px/22px 'Source Sans Pro',
+      'Helvetica Neue',
+      sans-serif;
+    padding: 0;
+    width: 180px;
+  }
+  
+  .mapboxgl-popup-content h3 {
+    background: blue;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 3px 3px 0 0;
+    font-weight: 700;
+    margin-top: -15px;
+  }
+  
+  .mapboxgl-popup-content h4 {
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
+  }
+  
+  .mapboxgl-popup-content div {
+    padding: 10px;
+  }
+  
+  .mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+    margin-top: 15px;
+  }
+  
+  .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+    border-bottom-color: blue;
+  }
