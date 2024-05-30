@@ -9,7 +9,7 @@ const pexelsUrl5 = 'https://api.pexels.com/v1/search?query=tattoos&page=14&per_p
 const pexelsKey = 'RWDwRnvBLcUxGbTBoNmTrIEKsTz7VIRWRs28z1xAV1xP0fn4NFk6SWD7';
 
 // locates image containers and creates 'cardTag' for each image
-const container = document.querySelector('.container');
+const container6 = document.querySelector('.container6');
 const container2 = document.querySelector('.container2');
 const container3 = document.querySelector('.container3');
 const container4 = document.querySelector('.container4');
@@ -22,7 +22,7 @@ function getPhotos(images) {
         cardTag = `<div class="card">
                     <img src=${image.src.tiny} />
                     </div>`;
-        container.innerHTML += cardTag;
+        container6.innerHTML += cardTag;
     })
 };
 
