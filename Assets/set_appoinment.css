@@ -1,3 +1,9 @@
+.font-family {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
