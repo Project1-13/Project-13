@@ -24,7 +24,7 @@ loginButton.addEventListener('click', function (event) {
     } else{
       alert("login successful");
        // redirecting to the user page
-      window.location.pathname = "./public/user.html";  
+      location.href = "./public/user.html";  
     }
        
      
