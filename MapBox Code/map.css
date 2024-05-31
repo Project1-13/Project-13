@@ -157,7 +157,7 @@
   cursor: pointer;
   height: 56px;
   width: 56px;
-  background-image: url('./Images/MapMarker.png');
+  background-image: url('/Images/MapMarker.png');
   background-repeat: no-repeat;
   background-position: center;
 }
