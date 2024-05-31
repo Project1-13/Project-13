@@ -42,7 +42,7 @@ rememberButton.addEventListener('click', function (event) {
     alert('Create New Profile?');
 
     // redirecting to the profile creation form
-    location.href = "/create_profile.html";  
+    location.href = "./create_profile.html";  
 
   }
 
