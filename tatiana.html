@@ -13,6 +13,12 @@
           background: rgb(85, 9, 9);
         }
        </style>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <!-- required javascript from MapBox -->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+    <!-- required css from MapBox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="/MapBox Code/map.css">
 </head>
 <body class="font-family">
     <div class="container">
@@ -31,10 +37,15 @@
                 <p>Phone: +123-456-7890</p>
             </div>
         </section>
-        <section id="find-us">
-            <h2>Locations</h2>
-            <img src="./images/maps.webp" alt="Map" class="map-image">
-        </section>
+            <section id="mapContainer">
+            <div class="sidebar">
+                <div class="heading">
+                  <h1>Locations</h1>
+                </div>
+                <div id="listings" class="listings"></div>
+              </div>
+              <div id="map" class="map"></div>
+            </section>
         
         <footer>
             <p>Wicked Needles</p>
@@ -47,5 +58,6 @@
             </div>
         </footer>
     </div>
+    <script src="/MapBox Code/map.js"></script>
 </body>
 </html>
