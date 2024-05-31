@@ -69,11 +69,11 @@ header nav a {
 }
 
 .container {
-  max-width: 400px;
+  max-width: 350px;
   width: 100%;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid black;
+  border: 2px solid rgb(226, 213, 213);
   box-sizing: border-box;
   text-align: center;
 }
@@ -94,7 +94,7 @@ form input[type="password"] {
 
 form input[type="text"]:focus,
 form input[type="password"]:focus {
-  background-color: #0e0d0d;
+  background-color: #e7e2e2;
   outline: none;
 }
 
