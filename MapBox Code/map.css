@@ -157,7 +157,7 @@
   cursor: pointer;
   height: 56px;
   width: 56px;
-  background-image: url('https://github.com/Project1-13/Project-13/blob/main/Images/MapMarker.png');
+  background-image: url('/Images/MapMarker.png');
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -2,15 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(85, 9, 9);
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
 }
-
 
 header {
     display: flex;
@@ -25,23 +24,30 @@ header h1 {
     margin: 0;
 }
 
-header nav a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-left: 10px;
-    background-color: #333;
+.font-family {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+   font-style: normal;
+
 }
 
+header nav a {
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
 
 form {
     max-width: 400px;
-    margin: 400px auto;
+    margin: 20px auto 20px auto;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 40%;
 }
 
 form label {
@@ -74,6 +80,10 @@ form button:hover {
     background-color: #333;
 }
 
+.container h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .container.signin {
     text-align: center;
