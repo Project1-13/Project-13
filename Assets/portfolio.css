@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 .font-family {
      font-family: "Kaushan Script", cursive;
      font-weight: 400;
