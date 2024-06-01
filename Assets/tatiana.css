@@ -8,14 +8,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: rgb(85, 9, 9);
 }
 
 .container {
     position: relative;
     width: 100%;
     max-width: 1700px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border: 10px solid black;
@@ -35,7 +35,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 
 header h1 {
