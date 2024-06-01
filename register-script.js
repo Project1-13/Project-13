@@ -32,7 +32,7 @@ loginButton.addEventListener('click', function (event) {
       console.log(password);
   
       // redirecting to the user page
-      location.href = "./public/user.html";  
+      location.href = "./user.html";  
   
   
     }
