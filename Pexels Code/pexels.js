@@ -2,8 +2,8 @@
 const pexelsUrl = 'https://api.pexels.com/v1/search?query=tattoos&page=1&per_page=5';
 const pexelsUrl2 = 'https://api.pexels.com/v1/search?query=tattoos&page=2&per_page=5';
 const pexelsUrl3 = 'https://api.pexels.com/v1/search?query=tattoos&page=8&per_page=5';
-const pexelsUrl4 = 'https://api.pexels.com/v1/search?query=tattoos&page=10&per_page=5';
-const pexelsUrl5 = 'https://api.pexels.com/v1/search?query=tattoos&page=14&per_page=5';
+const pexelsUrl4 = 'https://api.pexels.com/v1/search?query=tattoos&page=12&per_page=5';
+const pexelsUrl5 = 'https://api.pexels.com/v1/search?query=tattoos&page=19&per_page=5';
 
 // Pexel's authorization key
 const pexelsKey = 'RWDwRnvBLcUxGbTBoNmTrIEKsTz7VIRWRs28z1xAV1xP0fn4NFk6SWD7';
