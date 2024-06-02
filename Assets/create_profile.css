@@ -114,4 +114,44 @@ form button:hover {
     form input[type="password"] {
         margin-bottom: 5px;
     }
+
+    header, footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+footer .contact-info {
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+}
+
+footer .social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
 }
