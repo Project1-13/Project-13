@@ -34,4 +34,7 @@ submitButton.addEventListener('click', function(event) {
     console.log(appointmentArray)
 
     localStorage.setItem('appointmentArray', JSON.stringify(appointmentArray));
+
+    location.href = "./user.html"; //redirecting to user page
+
 });
