@@ -9,7 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <style>
+        body {
+          background: rgb(85, 9, 9);
+        }
+       </style>
 </head>
+<!--Top Nav-->
 <header class="font-family">
     <h1>Wicked Needles</h1>
     <nav>
@@ -18,16 +24,18 @@
         <a href="./tatiana.html">Contact Us</a>
     </nav>
 </header>
-<body class="bg-gray-100 font-sans">
+<body>
+    <!--User box-->
     <div class="flex flex-col md:flex-row p-4">
         <div class="md:w-1/3 p-4">
             <div class="bg-white shadow-lg rounded-lg p-4">
-                <img src="/Images/profile-icon.jpg" alt="profile-icon" class="w-full h-auto rounded-full">
+                <img src="Images\user.png" alt="profile-icon" class="w-full h-auto rounded-full">
                 <div class="text-center mt-4">
-                    <h3 class="text-2xl font-semibold">User Name from register form</h3>
+                    <h3 class="text-2xl font-semibold">User Name</h3>
                 </div>
             </div>
         </div>
+        <!--My information box info-->
         <div class="md:w-2/3 p-4">
             <div class="bg-white shadow-lg rounded-lg p-4">
                 <h1 class="text-2xl font-bold mb-4">My Information</h1>
@@ -52,7 +60,7 @@
                     </div>
                     <hr class="my-2">
                 </div>
-                <div class="mb-4">
+                <div class="mb-4"> <!--div tag for js input-->
                     <div class="flex justify-between">
                         <h5 class="font-semibold">Upcoming Appointments</h5>
                        
@@ -66,6 +74,7 @@
     </div>
     <script src="./user.-script.js"></script>  
 </body>
+
 <footer class="font-family">
     <p>Wicked Needles</p>
     <div class="social-icons">
