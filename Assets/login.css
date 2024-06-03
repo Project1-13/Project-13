@@ -1,3 +1,5 @@
+/*google font*/
+
 .font-family {
   font-family: "Kaushan Script", cursive;
     font-weight: 400;
@@ -10,7 +12,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* loginbox */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -26,6 +28,7 @@ header {
   background-color: black;
   padding: 10px 20px;
 }
+
 header h1 {
   margin: 0;
   color: #fff;
@@ -43,7 +46,7 @@ header nav a {
   border-radius: 5px;
   margin-left: 10px;
 }
-
+/*footer links */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -69,6 +72,7 @@ header nav a {
   position: relative;
 }
 
+/*loginbox*/
 .container {
   width: 35%;
   padding: 20px;
@@ -98,6 +102,7 @@ form input[type="password"]:focus {
   outline: none;
 }
 
+/* login & create brn*/
 .btn {
   background-color: #961919;
   color: #f5f2f2;
@@ -109,10 +114,12 @@ form input[type="password"]:focus {
   margin-top: 10px;
 }
 
+/*login btn */
 .btn:hover {
   opacity: 5;
 }
 
+/* create accound btn*/
 .remember {
   background-color: #141010;
   color: #f5f2f2;

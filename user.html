@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <style>
+   <!--Tailwind background color for entire page-->
+   <style>
         body {
           background: rgb(85, 9, 9);
         }
        </style>
 </head>
+
+<!--Top nav Bar-->
 <header class="font-family">
     <h1>Wicked Needles</h1>
     <nav>
@@ -23,48 +26,53 @@
         <a href="./tatiana.html">Contact Us</a>
     </nav>
 </header>
+
 <body>
+    <!--User box-->
     <div class="flex flex-col md:flex-row p-4">
         <div class="md:w-1/3 p-4">
             <div class="bg-white shadow-lg rounded-lg p-4">
                 <img src="Images\user-profile-placeholder-icon-m6v7xcw1aizwb1ub.png" alt="profile-icon" class="w-full h-auto rounded-full">
                 <div class="text-center mt-4">
-                    <h3 class="text-2xl font-semibold">User Name from register form</h3>
+                    <h3 class="text-2xl font-bold">User Name</h3>
                 </div>
             </div>
         </div>
+
+        <!--My Information box-->
         <div class="md:w-2/3 p-4">
             <div class="bg-white shadow-lg rounded-lg p-4">
                 <h1 class="text-2xl font-bold mb-4">My Information</h1>
                 <div class="mb-4">
                     <div class="flex justify-between">
-                        <h5 class="font-semibold">User Name</h5>
-                        <div>User name from register form</div>
+                        <h5>User Name</h5>
+                        <div>User Name</div>
                     </div>
-                    <hr class="my-2">
                 </div>
-                <div class="mb-4">
+<!--email field-->
+                <div class="email">
                     <div class="flex justify-between">
-                        <h5 class="font-semibold">Email</h5>
-                        <div>Email from register form</div>
+                        <h5>Email</h5>
+                        <div>Email</div>
                     </div>
-                    <hr class="my-2">
                 </div>
-                <div class="mb-4">
+<!--phone number field-->
+                <div class="phone-number">
                     <div class="flex justify-between">
-                        <h5 class="font-semibold">Phone</h5>
+                        <h5>Phone</h5>
                         <div>User Phone # or N/A if no #</div>
                     </div>
-                    <hr class="my-2">
-                </div>
-                <div class="mb-4">
+                 </div>
+<!--appointment field-->
+                <div class="appointments">
                     <div class="flex justify-between">
-                        <h5 class="font-semibold">Upcoming Appointments</h5>
-                       
+                        <h5>Upcoming Appointments</h5>
+                     <!--Adam asked for Open div for js-->
                         <div>
                             
                         </div>
                     </div>
+               <!--closing divs for styling-->
                 </div>
             </div>
         </div>
