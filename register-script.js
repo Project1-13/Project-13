@@ -19,7 +19,7 @@ loginButton.addEventListener('click', function (event) {
       alert('Email cannot be blank');
     } else if (password === '') {
       alert ('password can not be blank'); //added an password alert
-    }  else if (password !== repeat) {
+    } else if (password !== repeat) {
         alert ('passwords must match');
     } else if (phoneNumber ==='') {
       alert ('phone number cannot be blank');

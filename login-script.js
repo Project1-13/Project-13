@@ -19,8 +19,10 @@ loginButton.addEventListener('click', function (event) {
     console.log (existingUserPassword);
     if (!existingUserPassword){
       alert("user not found")
-    } else if (existingUserPassword !== password){
-      alert("wrong password")
+    }
+      else if (existingUserPassword !== null && JSON.parse(existingUserPassword).password !== password) {
+        alert("wrong password");
+      
     } else{
       alert("login successful");
        // redirecting to the user page
