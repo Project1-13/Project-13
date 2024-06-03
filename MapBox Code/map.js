@@ -111,9 +111,19 @@ stores.features.forEach(function (store, i) {
       type: 'geojson',
       data: stores
     });
+    map.addLayer( {
+      id: 'locations',
+      type: 'circle',
+      source: {
+        type: 'geojson',
+        data: stores
+      }
+    });
     addMarkers();
     buildLocationList(stores);
   });
+
+
 
   function addMarkers() {
     /* For each feature in the GeoJSON object above: */
@@ -129,7 +139,7 @@ stores.features.forEach(function (store, i) {
        * Create a marker using the div element
        * defined above and add it to the map.
        **/
-      new mapboxgl.Marker(el, { offset: [0, -23] })
+      new mapboxgl.Marker(el, { offset: [0, 0] })
         .setLngLat(marker.geometry.coordinates)
         .addTo(map);
 
@@ -192,7 +202,7 @@ stores.features.forEach(function (store, i) {
   function flyToStore(currentFeature) {
     map.flyTo({
       center: currentFeature.geometry.coordinates,
-      zoom: 15
+      zoom: 13
     });
   }
   
