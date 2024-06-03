@@ -10,27 +10,31 @@ submitButton.addEventListener('click', function(event) {
     event.preventDefault();
     
     const artist = artistSelection.value;
-    const phoneNumber = phoneNumberInput.value;
-    const firstName = firstNameInput.value;
-    const lastName = lastNameInput.value;
-    const email = emailInput.value;
+    // const phoneNumber = phoneNumberInput.value;
+    // const firstName = firstNameInput.value;
+    // const lastName = lastNameInput.value;
+    // const email = emailInput.value;
     const message = messageInput.value;
     const date = appointmentDate.value;
     
     if (artist === 'Choose Artist') {
         alert('Please choose an Artist');
-    } if (phoneNumber === '') {
-        alert ('Please enter your phone number');
-    } if (firstName === ''){
-        alert ('Please enter your first name');
-    } if (lastName === '') {
-        alert ('Please enter your last name');
-    }if (email === '') {
-        alert ('Please enter your email');
-    } 
+    // } if (phoneNumber === '') {
+    //     alert ('Please enter your phone number');
+    // } if (firstName === ''){
+    //     alert ('Please enter your first name');
+    // } if (lastName === '') {
+    //     alert ('Please enter your last name');
+    // }if (email === '') {
+    //     alert ('Please enter your email');
+    }if (message === '') {
+        alert ('Please write a message');
+    }
+
+
     
     
-    const appointmentArray = [artist, phoneNumber, firstName, lastName, email, message, date];
+    const appointmentArray = [artist, message, date];
     console.log(appointmentArray)
 
     localStorage.setItem('appointmentArray', JSON.stringify(appointmentArray));

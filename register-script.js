@@ -26,7 +26,7 @@ loginButton.addEventListener('click', function (event) {
     } else if (userName ==='') {
       alert ('user name cannot be blank')
     } else {
-      alert("account created successful");
+      alert("account created successfully!");
       
     
   // placing the email and password into local storage

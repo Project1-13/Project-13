@@ -38,7 +38,7 @@ rememberButton.addEventListener('click', function (event) {
 
   // setting the if statement up so that as long as there is something in the email form it will promt
   if (remember !== '') {
-    alert('Create New Profile?');
+    alert('Creating New Account');
 
     // redirecting to the profile creation form
     location.href = "./create_profile.html";  
@@ -47,7 +47,9 @@ rememberButton.addEventListener('click', function (event) {
 
   // alterting error if there is nothing in the email form
   else {
-  alert ('error, please try again')
+    // redirecting to the profile creation form
+    alert('Creating New Account');
+    location.href = "./create_profile.html";
   }
 
 
