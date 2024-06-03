@@ -155,9 +155,10 @@
 .marker {
   border: none;
   cursor: pointer;
-  height: 56px;
-  width: 56px;
+  height: 20px;
+  width: 20px;
   background-image: url('/Images/pin.png');
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 50px;
 }
