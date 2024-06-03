@@ -21,7 +21,10 @@ submitButton.addEventListener('click', function(event) {
         alert ('Please select date')
     } else {
     alert ('Submission Successful');
-    const appointmentArray = [artist, message, date];
+    const appointmentArray = {
+        artist: artist,
+        message: message,
+        date: date};
     console.log(appointmentArray)
 
     localStorage.setItem('appointmentArray', JSON.stringify(appointmentArray));
